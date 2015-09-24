@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/snielsson/Ssn</projectUrl>
+    <iconUrl>http://www.gravatar.com/avatar/5f54b776d334bc43e497f50e28e5cd89.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>
+      Initial release
+    </releaseNotes>
+    <copyright>Copyright 2015 Stig Schmidt Nielsson</copyright>
+    <tags>test utilities nunit autofixture</tags>
+  </metadata>
+</package>

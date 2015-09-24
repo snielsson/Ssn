@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Projects\Ssn\Ssn.Utils.Tests\Ssn.Utils.Tests.csproj" total="26" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-09-20" time="22:52:25">
+  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.8662" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Projects\Ssn\Ssn.TestUtils" machine-name="DESKTOP-8QIH0F2" user="Stig" user-domain="DESKTOP-8QIH0F2" />
+  <culture-info current-culture="da-DK" current-uiculture="en-US" />
+  <test-suite type="Project" name="C:\Projects\Ssn\Ssn.Utils.Tests\Ssn.Utils.Tests.csproj" executed="True" result="Success" success="True" time="1.640" asserts="0">
+    <results>
+      <test-suite type="Assembly" name="C:\Projects\Ssn\Ssn.Utils.Tests\bin\Release\Ssn.Utils.Tests.dll" executed="True" result="Success" success="True" time="1.633" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Ssn" executed="True" result="Success" success="True" time="1.633" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Utils" executed="True" result="Success" success="True" time="1.632" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="1.632" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="BooleanWaitEventTests" executed="True" result="Success" success="True" time="0.668" asserts="0">
+                        <results>
+                          <test-case name="Ssn.Utils.Tests.BooleanWaitEventTests.Works" executed="True" result="Success" success="True" time="0.657" asserts="11" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="Namespace" name="Extensions" executed="True" result="Success" success="True" time="0.942" asserts="0">
+                        <results>
+                          <test-suite type="TestFixture" name="ArrayExtensionsTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                            <results>
+                              <test-case name="Ssn.Utils.Tests.Extensions.ArrayExtensionsTests.ExtendAtBackWorks" executed="True" result="Success" success="True" time="0.006" asserts="20" />
+                              <test-case name="Ssn.Utils.Tests.Extensions.ArrayExtensionsTests.ExtendAtFrontWorks" executed="True" result="Success" success="True" time="0.003" asserts="20" />
+                              <test-case name="Ssn.Utils.Tests.Extensions.ArrayExtensionsTests.LastWorks" executed="True" result="Success" success="True" time="0.003" asserts="4" />
+                            </results>
+                          </test-suite>
+                          <test-suite type="TestFixture" name="AssemblyExtensionsTests" executed="True" result="Success" success="True" time="0.111" asserts="0">
+                            <results>
+                              <test-case name="Ssn.Utils.Tests.Extensions.AssemblyExtensionsTests.BuildTimeWorks" executed="True" result="Success" success="True" time="0.004" asserts="1" />
+                              <test-case name="Ssn.Utils.Tests.Extensions.AssemblyExtensionsTests.GetAssemblyInfoWorks" executed="True" result="Success" success="True" time="0.104" asserts="1" />
+                              <test-case name="Ssn.Utils.Tests.Extensions.AssemblyExtensionsTests.VersionStringWorks" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                            </results>
+                          </test-suite>
+                          <test-suite type="TestFixture" name="DateTimeExtensionsTests" executed="True" result="Success" success="True" time="0.013" asserts="0">
+                            <results>
+                              <test-case name="Ssn.Utils.Tests.Extensions.DateTimeExtensionsTests.IsInTheFutureWorks" executed="True" result="Success" success="True" time="0.002" asserts="6" />
+                              <test-case name="Ssn.Utils.Tests.Extensions.DateTimeExtensionsTests.IsInThePastWorks" executed="True" result="Success" success="True" time="0.001" asserts="6" />
+                              <test-case name="Ssn.Utils.Tests.Extensions.DateTimeExtensionsTests.RoundToTimeSpanEndWorks" executed="True" result="Success" success="True" time="0.002" asserts="12" />
+                              <test-case name="Ssn.Utils.Tests.Extensions.DateTimeExtensionsTests.RoundToTimeSpanStartWorks" executed="True" result="Success" success="True" time="0.002" asserts="12" />
+                              <test-case name="Ssn.Utils.Tests.Extensions.DateTimeExtensionsTests.ToAndFromUnixTimeMsWorks" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+                              <test-case name="Ssn.Utils.Tests.Extensions.DateTimeExtensionsTests.ToAndFromUnixTimeWorks" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+                            </results>
+                          </test-suite>
+                          <test-suite type="TestFixture" name="ExceptionExtensionsTests" executed="True" result="Success" success="True" time="0.019" asserts="0">
+                            <results>
+                              <test-case name="Ssn.Utils.Tests.Extensions.ExceptionExtensionsTests.ToStringRecursiveWorks" executed="True" result="Success" success="True" time="0.018" asserts="2" />
+                            </results>
+                          </test-suite>
+                          <test-suite type="TestFixture" name="IntExtensionsTests" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                            <results>
+                              <test-case name="Ssn.Utils.Tests.Extensions.IntExtensionsTests.IsEvenWorks" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                            </results>
+                          </test-suite>
+                          <test-suite type="TestFixture" name="NameValueCollectionExtensionsTests" executed="True" result="Success" success="True" time="0.010" asserts="0">
+                            <results>
+                              <test-case name="Ssn.Utils.Tests.Extensions.NameValueCollectionExtensionsTests.GetBoolWorks" executed="True" result="Success" success="True" time="0.003" asserts="6" />
+                              <test-case name="Ssn.Utils.Tests.Extensions.NameValueCollectionExtensionsTests.GetEnumWorks" executed="True" result="Success" success="True" time="0.002" asserts="12" />
+                              <test-case name="Ssn.Utils.Tests.Extensions.NameValueCollectionExtensionsTests.GetIntWorks" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                              <test-case name="Ssn.Utils.Tests.Extensions.NameValueCollectionExtensionsTests.GetLongWorks" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                              <test-case name="Ssn.Utils.Tests.Extensions.NameValueCollectionExtensionsTests.GetStringWorks" executed="True" result="Success" success="True" time="0.000" asserts="4" />
+                            </results>
+                          </test-suite>
+                          <test-suite type="TestFixture" name="ObjectExtensionsTests" executed="True" result="Success" success="True" time="0.741" asserts="0">
+                            <results>
+                              <test-case name="Ssn.Utils.Tests.Extensions.ObjectExtensionsTests.CloneWorks" executed="True" result="Success" success="True" time="0.676" asserts="4" />
+                              <test-case name="Ssn.Utils.Tests.Extensions.ObjectExtensionsTests.DumpWorks" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                              <test-case name="Ssn.Utils.Tests.Extensions.ObjectExtensionsTests.ToJsonWorks" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+                              <test-case name="Ssn.Utils.Tests.Extensions.ObjectExtensionsTests.ToPrettyJsonWorks" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+                            </results>
+                          </test-suite>
+                          <test-suite type="TestFixture" name="StringExtensionsTests" executed="True" result="Success" success="True" time="0.018" asserts="0">
+                            <results>
+                              <test-case name="Ssn.Utils.Tests.Extensions.StringExtensionsTests.Base64EncodeDecodeWorks" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                              <test-case name="Ssn.Utils.Tests.Extensions.StringExtensionsTests.ToHexStringAndToByteArrayWorks" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

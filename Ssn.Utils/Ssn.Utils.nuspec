@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://github.com/snielsson/Ssn/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/snielsson/Ssn</projectUrl>
+    <iconUrl>http://www.gravatar.com/avatar/5f54b776d334bc43e497f50e28e5cd89.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>
+      2.0.0
+      Reordered some namespaces (breaking change). Switched to SemVer 2.0.0. versioning scheme (http://semver.org/).
+      More utils added.
+      1.1.0.0
+      Added Merge extension method for byte arrays.
+      Added ToInt string extension method.
+    </releaseNotes>
+    <copyright>Copyright 2015 Stig Schmidt Nielsson</copyright>
+    <tags></tags>
+  </metadata>
+</package>
